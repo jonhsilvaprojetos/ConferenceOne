@@ -1,0 +1,48 @@
+.conteudo.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0px;
+    padding: 45px 0px;
+    transition: background 0.7s, padding 0.7s, top 0.7s;
+}
+.fixedTop .conteudo.menu {
+	top: -72px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 15px 0px;
+}
+
+#cabecalho nav.menu-cb > ul .running-line {
+    display: block;
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background: #82b541;
+	top: 12px;
+	z-index: 10;
+	transition:all .40s ease-out;
+	display: block !important;
+}
+#cabecalho nav.menu-cb > ul .running-line-back {
+   /* width: 91%;
+    height: 2px;
+    position: absolute;
+    left: 45px;
+    top: 12px;
+    z-index: -6;
+    background: rgb(52, 64, 36);
+    border: 1px solid rgba(46, 49, 41, 0.56);*/
+    display: none;
+    
+}
+#cabecalho nav.menu-cb > ul .running-line.off {
+		visibility: hidden;
+	  opacity: 0;
+	  width: 0 !important;
+	  left: 0 !important;
+}
+
+
+#cabecalho nav.menu-cb > ul > li.activeAnchor > a {
+    color: #83b63e;
+}

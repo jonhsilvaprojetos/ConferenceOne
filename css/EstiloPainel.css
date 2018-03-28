@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+    font-family: 'roboto condensed';
+}
+/*/ SIDEBAR LATERAL PAINEL /*/
+.side-bar-lateral.col-md-3 {
+    padding: 0px;
+    width: 316px;
+    max-width: 100%;
+	bottom: 0;
+	top: 0;
+    position: fixed;
+    background: #2f3b4c;
+	overflow: hidden;
+}
+/*/ BOX AVATAR E NAME USER /*/
+.info-user {
+    padding: 40px 35px;
+	overflow:hidden;
+	background: #2f3b4c;
+}
+/*/ AVATAR /*/
+.info-user .avatar-user {
+  float: left;
+    margin-right: 20px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.info-user .avatar-user img {
+    border-radius: 100px;
+
+}
+/*/ NAME USER /*/
+.info-user .name-user {
+    line-height: 25px;
+	margin-top: 5px;
+}
+.info-user span.bem-vindo-user {
+    font-family: Roboto Condensed;
+    color: #b0bec5;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.info-user span.nome-usuario {
+    font-size: 25px;
+    color: #fff;
+    font-family: roboto condensed;
+	text-transform: capitalize;
+}
+
+/*/ MENU SIDEBAR PAINEL /*/
+nav.menu-painel ul li {
+    list-style: none;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+nav.menu-painel ul {
+    padding: 0;
+    margin: 0px;
+}
+nav.menu-painel li a {
+    color: #b0bec5;
+    font-family: 'Roboto';
+    font-size: 17px;
+	display: block;
+		padding: 15px 30px;
+    height: 52px;
+	text-decoration: none;
+}
+/* item ativo */
+nav.menu-painel li.active {
+    border-left: 4px solid #00bfe8;
+    background: #2a3344;
+}
+nav.menu-painel li.active a {
+    margin-left: -4px;
+	color: #fff;
+}
+/* item hover */
+nav.menu-painel ul li:hover {
+    background: rgba(255,255,255,0.015);
+}
+/* Desenvolvido por */
+.dev-by {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: #b0bec5;
+    font-family: 'Roboto';
+}
+
+/*/ DIV CONTEUDO /*/
+.conteudo-principal-painel {
+    width: 78%;
+    float: right;
+}
+
+
+/*/ FORM EDITA REGISTRO /*/
+.form-edita-reg {
+    width: 400px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.form-edita-reg h3 {
+    font-family: 'Roboto';
+    color: #4e5159;
+}
+.form-control.form-control-lg {
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 1.8rem;
+    letter-spacing: .05rem;
+    border: 1px solid #CDD8E3;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+.input-group.file-avatar span.btn.btn-primary {
+    padding: 13px 15px;
+    border-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group.file-avatar input.form-control {
+    padding: 10px 10px;
+    height: 48px;
+    border-radius: 2px;
+    background: #f4f4f4 !important;
+}
+.form-edita-reg label:not(.input-group-btn) {
+    font-size:14px;
+    font-family: 'roboto condensed';
+    display: block;
+    text-align: left;
+    color: #4e5159;
+}
+.btn-salva-dados{
+    border-radius: 2px;
+    font-family: "Roboto condensed";
+    width: 160px;
+    font-size: 20px;
+}
+.btn-salva-dados span {
+    font-size: 21px;
+    font-weight: 300;
+    vertical-align: text-top;
+    margin-left: 4px;
+}
